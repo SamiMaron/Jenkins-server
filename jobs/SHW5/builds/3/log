@@ -1,0 +1,106 @@
+Started by user [8mha:////4Iz1tzrBAHhoVFSbaH//bTFsBKqR6acH/3J+gllosBbyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL94sTczPjcRAAth5ANwgAAAA==[0msami maron
+Running as SYSTEM
+Building in workspace C:\Users\maron\.jenkins\workspace\SHW5
+FSSCM.checkout C:\Users\maron\Desktop\projects\automation_project to C:\Users\maron\.jenkins\workspace\SHW5
+New file: target\classes\.gitignore
+New file: target\classes\META-INF\MANIFEST.MF
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.properties
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.xml
+
+FSSCM.check completed in 166 milliseconds
+No emails were triggered.
+[SHW5] $ cmd.exe /C "C:\Users\maron\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd -f pom.xml clean install test -Dtestng.dtd.http=true -DsuiteXmlFile=src/test/resources/testng.xml '"-Dworkspace=C:\Selenium Workspace"' && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.ilana.ilana2:automation_basic_project >--------------
+[INFO] Building automation_basic_project basic
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4GDZASRfAOft3kfEyDP5rlmOOZXyDnic3Zne1m/B0wrrAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ automation_basic_project ---
+[INFO] Deleting C:\Users\maron\.jenkins\workspace\SHW5\target
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to C:\Users\maron\.jenkins\workspace\SHW5\target\classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\maron\.jenkins\workspace\SHW5\target\test-classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ automation_basic_project ---
+[INFO] Surefire report directory: C:\Users\maron\.jenkins\workspace\SHW5\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.235 s
+[INFO] Finished at: 2022-11-30T22:09:16+02:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project automation_basic_project: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test failed: There was an error in the forked process
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] org.testng.TestNGException: 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Cannot find class in classpath: tests.basic.PageCbjectCode
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.XmlClass.loadClass(XmlClass.java:75)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.XmlClass.init(XmlClass.java:67)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.XmlClass.<init>(XmlClass.java:54)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.TestNGContentHandler.startElement(TestNGContentHandler.java:556)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.impl.dtd.XMLDTDValidator.emptyElement(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:197)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.XMLParser.parse(XMLParser.java:39)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.SuiteXmlParser.parse(SuiteXmlParser.java:16)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.SuiteXmlParser.parse(SuiteXmlParser.java:9)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.Parser.parse(Parser.java:162)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.xml.Parser.parse(Parser.java:248)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.TestNG.parseSuite(TestNG.java:322)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:374)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.TestNG.initializeEverything(TestNG.java:1017)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.testng.TestNG.run(TestNG.java:1029)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+Failed to send e-mail to unknown because no e-mail address is known, and no default e-mail domain is configured
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

@@ -1,0 +1,54 @@
+<log plugin="filesystem_scm@2.1">
+  <run class="hudson.model.FreeStyleBuild">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause>
+              <userId>sami_ma</userId>
+            </hudson.model.Cause_-UserIdCause>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>4</queueId>
+    <timestamp>1669838945891</timestamp>
+    <startTime>1669838945905</startTime>
+    <duration>0</duration>
+    <charset>windows-1255</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>C:\Users\maron\.jenkins\workspace\SHW5</workspace>
+    <hudsonVersion>2.361.4</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <browser class="hudson.plugins.filesystem_scm.FilesystemRepositoryBrowser"/>
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>target\classes\.gitignore</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

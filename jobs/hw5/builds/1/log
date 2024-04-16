@@ -1,0 +1,292 @@
+Started by user [8mha:////4Iz1tzrBAHhoVFSbaH//bTFsBKqR6acH/3J+gllosBbyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL94sTczPjcRAAth5ANwgAAAA==[0msami maron
+Running as SYSTEM
+Building in workspace C:\Users\maron\.jenkins\workspace\hw5
+FSSCM.checkout C:\Users\maron\Desktop\projects\automation_project to C:\Users\maron\.jenkins\workspace\hw5
+New file: .classpath
+New file: .project
+New file: .settings\org.eclipse.core.resources.prefs
+New file: .settings\org.eclipse.jdt.core.prefs
+New file: .settings\org.eclipse.m2e.core.prefs
+New file: pom.xml
+New file: Profile\FF\prefs.js
+New file: Profile\Linux\chromedriver
+New file: Profile\Linux\geckodriver
+New file: Profile\Windows\chromedriver.exe
+New file: Profile\Windows\geckodriver.exe
+New file: Profile\Windows\IEDriverServer.exe
+New file: Profile\Windows\MicrosoftWebDriver.exe
+New file: Profile\Windows\operadriver.exe
+New file: src\main\java\applogic\API_Helper1.java
+New file: src\main\java\applogic\ApplicationManager1.java
+New file: src\main\java\applogic\DriverBasedHelper.java
+New file: src\main\java\applogic\LoginHelper1.java
+New file: src\main\java\models\User.java
+New file: src\main\java\pages\super_pages\AnyPage.java
+New file: src\main\java\pages\super_pages\MenusPage.java
+New file: src\main\java\pages\super_pages\Page.java
+New file: src\main\java\pages\util_pages\HomePage.java
+New file: src\main\java\pages\util_pages\RegisterFormPage.java
+New file: src\main\java\pages\util_pages\RegisterSuccessPage.java
+New file: src\main\java\pages\_pages_mngt\MainPageManager.java
+New file: src\main\java\pages\_pages_mngt\page_factory\DisplayedElementLocator.java
+New file: src\main\java\pages\_pages_mngt\page_factory\DisplayedElementLocatorFactory.java
+New file: src\main\java\util\Browser.java
+New file: src\main\java\util\FileUtilis.java
+New file: src\main\java\util\GenUtils.java
+New file: src\main\java\util\ParamsUtils.java
+New file: src\main\java\util\PropertiesReader.java
+New file: src\main\java\util\SelUtils.java
+New file: src\main\java\webdriver\AuthenticatedHtmlUnitDriver.java
+New file: src\main\java\webdriver\WebDriverFactory.java
+New file: src\main\resources\application.properties
+New file: src\main\resources\grid2\README.txt
+New file: src\main\resources\log4j.properties
+New file: src\test\java\tests\basic\API_TestExample.java
+New file: src\test\java\tests\basic\AppiumTestExample.java
+New file: src\test\java\tests\basic\CheckPDF_TestExample.java
+New file: src\test\java\tests\basic\OldCodeTest.java
+New file: src\test\java\tests\basic\PageObjectCode.java
+New file: src\test\java\tests\supers\TestBase.java
+New file: src\test\resources\testNG.xml
+New file: target\classes\.gitignore
+New file: target\classes\application.properties
+New file: target\classes\applogic\API_Helper1.class
+New file: target\classes\applogic\ApplicationManager1.class
+New file: target\classes\applogic\DriverBasedHelper.class
+New file: target\classes\applogic\LoginHelper1.class
+New file: target\classes\grid2\README.txt
+New file: target\classes\log4j.properties
+New file: target\classes\META-INF\MANIFEST.MF
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.properties
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.xml
+New file: target\classes\models\User.class
+New file: target\classes\pages\super_pages\AnyPage.class
+New file: target\classes\pages\super_pages\MenusPage.class
+New file: target\classes\pages\super_pages\Page.class
+New file: target\classes\pages\util_pages\HomePage.class
+New file: target\classes\pages\util_pages\RegisterFormPage.class
+New file: target\classes\pages\util_pages\RegisterSuccessPage.class
+New file: target\classes\pages\_pages_mngt\MainPageManager.class
+New file: target\classes\pages\_pages_mngt\page_factory\DisplayedElementLocator.class
+New file: target\classes\pages\_pages_mngt\page_factory\DisplayedElementLocatorFactory.class
+New file: target\classes\util\Browser.class
+New file: target\classes\util\FileUtilis.class
+New file: target\classes\util\GenUtils.class
+New file: target\classes\util\ParamsUtils.class
+New file: target\classes\util\PropertiesReader.class
+New file: target\classes\util\SelUtils$1.class
+New file: target\classes\util\SelUtils$2.class
+New file: target\classes\util\SelUtils$LocatorType.class
+New file: target\classes\util\SelUtils.class
+New file: target\classes\webdriver\AuthenticatedHtmlUnitDriver.class
+New file: target\classes\webdriver\WebDriverFactory.class
+New file: target\test-classes\testNG.xml
+New file: target\test-classes\tests\basic\API_TestExample.class
+New file: target\test-classes\tests\basic\AppiumTestExample.class
+New file: target\test-classes\tests\basic\CheckPDF_TestExample.class
+New file: target\test-classes\tests\basic\OldCodeTest.class
+New file: target\test-classes\tests\basic\PageObjectCode.class
+New file: target\test-classes\tests\supers\TestBase.class
+New file: test-output\bullet_point.png
+New file: test-output\collapseall.gif
+New file: test-output\Default suite\Default test.html
+New file: test-output\Default suite\Default test.xml
+New file: test-output\Default suite\testng-failed.xml
+New file: test-output\emailable-report.html
+New file: test-output\failed.png
+New file: test-output\index.html
+New file: test-output\jquery-1.7.1.min.js
+New file: test-output\jquery-3.4.1.min.js
+New file: test-output\junitreports\TEST-tests.basic.AppiumTestExample.xml
+New file: test-output\junitreports\TEST-tests.basic.HealthCheck.xml
+New file: test-output\junitreports\TEST-tests.basic.OldCodeTest.xml
+New file: test-output\junitreports\TEST-tests.basic.PageObjectCode.xml
+New file: test-output\junitreports\TEST-tests.basic.ShoppingEndToEnd.xml
+New file: test-output\navigator-bullet.png
+New file: test-output\old\Default suite\classes.html
+New file: test-output\old\Default suite\Default test.properties
+New file: test-output\old\Default suite\groups.html
+New file: test-output\old\Default suite\index.html
+New file: test-output\old\Default suite\main.html
+New file: test-output\old\Default suite\methods-alphabetical.html
+New file: test-output\old\Default suite\methods-not-run.html
+New file: test-output\old\Default suite\methods.html
+New file: test-output\old\Default suite\reporter-output.html
+New file: test-output\old\Default suite\testng.xml.html
+New file: test-output\old\Default suite\toc.html
+New file: test-output\old\index.html
+New file: test-output\passed.png
+New file: test-output\skipped.png
+New file: test-output\testng-failed.xml
+New file: test-output\testng-reports.css
+New file: test-output\testng-reports.js
+New file: test-output\testng-reports1.css
+New file: test-output\testng-reports2.js
+New file: test-output\testng-results.xml
+New file: test-output\testng.css
+
+FSSCM.check completed in 498 milliseconds
+No emails were triggered.
+[hw5] $ cmd.exe /C "C:\Users\maron\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd -f pom.xml clean install test -Dtestng.dtd.http=true -DsuiteXmlFile=src/test/resources/testng.xml '"-Dworkspace=C:\Selenium Workspace"' && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.ilana.ilana2:automation_basic_project >--------------
+[INFO] Building automation_basic_project basic
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4GDZASRfAOft3kfEyDP5rlmOOZXyDnic3Zne1m/B0wrrAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ automation_basic_project ---
+[INFO] Deleting C:\Users\maron\.jenkins\workspace\hw5\target
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to C:\Users\maron\.jenkins\workspace\hw5\target\classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\maron\.jenkins\workspace\hw5\target\test-classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ automation_basic_project ---
+[INFO] Surefire report directory: C:\Users\maron\.jenkins\workspace\hw5\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 9943
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669839322.031][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+реб„ 30, 2022 10:15:22 аздЎц org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+INFO  22:15:23  (TestBase.java:97) - Writing debug log to: C:\Selenium Workspace\Logs\basic\OldCodeTest120.log
+INFO  22:15:23  (TestBase.java:217) - Starting to record the test
+INFO  22:15:23  (FileUtilis.java:48) - Created dir: C:\Selenium Workspace\Recordings\basic\OldCodeTest
+INFO  22:15:23  (TestBase.java:223) - Saving recording to: 'C:\Selenium Workspace\Recordings\basic\OldCodeTest'.
+INFO  22:15:23  (TestBase.java:158) - *************************************************************************
+INFO  22:15:23  (TestBase.java:159) - The 'OldCodeTest' test has started.
+INFO  22:15:23  (TestBase.java:160) - Start time: 30/11/2022 22:15:23
+INFO  22:15:23  (TestBase.java:161) - *************************************************************************
+INFO  22:15:24  (OldCodeTest.java:22) - Click Register link
+INFO  22:15:26  (OldCodeTest.java:25) - Select male
+INFO  22:15:26  (OldCodeTest.java:28) - Enter first name Sami
+INFO  22:15:26  (OldCodeTest.java:31) - Enter last name Maron
+INFO  22:15:26  (OldCodeTest.java:34) - type day 15
+INFO  22:15:26  (OldCodeTest.java:38) - type month October
+INFO  22:15:26  (OldCodeTest.java:42) - type year 2000
+INFO  22:15:26  (OldCodeTest.java:46) - Enter mail samima@edu.hac.ac.il
+INFO  22:15:26  (OldCodeTest.java:49) - Enter Password sami1234
+INFO  22:15:27  (OldCodeTest.java:52) - Enter confirm Password sami1234
+INFO  22:15:27  (OldCodeTest.java:55) - Click Register link
+INFO  22:15:28  (OldCodeTest.java:60) - Verify message: Your registration completed
+INFO  22:15:28  (OldCodeTest.java:67) - Click Continue link
+INFO  22:15:28  (OldCodeTest.java:71) - Verify message: Welcome to our store
+INFO  22:15:30  (TestBase.java:241) - Stop the recording of the test
+INFO  22:15:31  (TestBase.java:270) - Recording is saved in: C:\Selenium Workspace\Recordings\basic\OldCodeTest\OldCodeTest3011222215.avi
+INFO  22:15:31  (TestBase.java:169) - *************************************************************************
+INFO  22:15:31  (TestBase.java:170) - The 'OldCodeTest' test has ended successfully.
+INFO  22:15:31  (TestBase.java:171) - Start time: 30/11/2022 22:15:23
+INFO  22:15:31  (TestBase.java:172) - End time:       30/11/2022 22:15:31.
+INFO  22:15:31  (TestBase.java:173) - -------------------------------------------------------------------------
+INFO  22:15:31  (TestBase.java:174) - Total run time: 0 days, 0 hours, 0 minutes, 7.720 seconds.
+INFO  22:15:31  (TestBase.java:175) - *************************************************************************
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 5740
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669839331.419][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+реб„ 30, 2022 10:15:32 аздЎц org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+INFO  22:15:32  (TestBase.java:97) - Writing debug log to: C:\Selenium Workspace\Logs\basic\PageObjectCode373.log
+INFO  22:15:32  (TestBase.java:217) - Starting to record the test
+INFO  22:15:32  (FileUtilis.java:48) - Created dir: C:\Selenium Workspace\Recordings\basic\PageObjectCode
+INFO  22:15:32  (TestBase.java:223) - Saving recording to: 'C:\Selenium Workspace\Recordings\basic\PageObjectCode'.
+INFO  22:15:32  (TestBase.java:158) - *************************************************************************
+INFO  22:15:32  (TestBase.java:159) - The 'PageObjectCode' test has started.
+INFO  22:15:32  (TestBase.java:160) - Start time: 30/11/2022 22:15:32
+INFO  22:15:32  (TestBase.java:161) - *************************************************************************
+INFO  22:15:33  (MenusPage.java:22) - Click Register link
+INFO  22:15:35  (RegisterFormPage.java:23) - Select male
+INFO  22:15:35  (RegisterFormPage.java:29) - Enter first nameSami
+INFO  22:15:35  (RegisterFormPage.java:35) - Enter lastMaron
+INFO  22:15:35  (RegisterFormPage.java:41) - type day15
+INFO  22:15:35  (RegisterFormPage.java:48) - type monthOctober
+INFO  22:15:35  (RegisterFormPage.java:55) - type year2000
+INFO  22:15:35  (RegisterFormPage.java:62) - Enter mailsami1@gmail.com
+INFO  22:15:35  (RegisterFormPage.java:68) - Enter Passwordsami1234
+INFO  22:15:36  (RegisterFormPage.java:74) - Enter confirm Passwordsami1234
+INFO  22:15:36  (RegisterFormPage.java:80) - Click Register link
+INFO  22:15:37  (RegisterSuccessPage.java:26) - Verify home text is Your registration completed
+INFO  22:15:37  (RegisterSuccessPage.java:34) - Click Continue link
+INFO  22:15:37  (HomePage.java:28) - Verify home text is Welcome to our store
+INFO  22:15:37  (TestBase.java:241) - Stop the recording of the test
+INFO  22:15:38  (TestBase.java:270) - Recording is saved in: C:\Selenium Workspace\Recordings\basic\PageObjectCode\PageObjectCode3011222215.avi
+INFO  22:15:38  (TestBase.java:169) - *************************************************************************
+INFO  22:15:38  (TestBase.java:170) - The 'PageObjectCode' test has ended successfully.
+INFO  22:15:38  (TestBase.java:171) - Start time: 30/11/2022 22:15:32
+INFO  22:15:38  (TestBase.java:172) - End time:       30/11/2022 22:15:38.
+INFO  22:15:38  (TestBase.java:173) - -------------------------------------------------------------------------
+INFO  22:15:38  (TestBase.java:174) - Total run time: 0 days, 0 hours, 0 minutes, 5.662 seconds.
+INFO  22:15:38  (TestBase.java:175) - *************************************************************************
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.215 sec - in TestSuite
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ automation_basic_project ---
+[INFO] Building jar: C:\Users\maron\.jenkins\workspace\hw5\target\automation_basic_project-basic.jar
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ automation_basic_project ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 3.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 7.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 2.7/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 2.7/7.2 kBProgress (1): 5.5/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (7.2 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 2.7/7.3 kBProgress (1): 5.5/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 2.7/230 kBProgress (1): 5.5/230 kBProgress (1): 8.2/230 kBProgress (1): 11/230 kB Progress (1): 14/230 kBProgress (1): 16/230 kBProgress (1): 20/230 kBProgress (1): 24/230 kBProgress (1): 28/230 kBProgress (1): 32/230 kBProgress (1): 36/230 kBProgress (1): 40/230 kBProgress (1): 45/230 kBProgress (1): 49/230 kBProgress (1): 53/230 kBProgress (1): 57/230 kBProgress (1): 61/230 kBProgress (1): 65/230 kBProgress (1): 69/230 kBProgress (1): 73/230 kBProgress (1): 77/230 kBProgress (1): 81/230 kBProgress (1): 85/230 kBProgress (1): 90/230 kBProgress (1): 94/230 kBProgress (1): 98/230 kBProgress (1): 102/230 kBProgress (1): 106/230 kBProgress (1): 110/230 kBProgress (1): 114/230 kBProgress (1): 118/230 kBProgress (1): 122/230 kBProgress (1): 126/230 kBProgress (1): 131/230 kBProgress (1): 135/230 kBProgress (1): 139/230 kBProgress (1): 143/230 kBProgress (1): 147/230 kBProgress (1): 151/230 kBProgress (1): 155/230 kBProgress (1): 159/230 kBProgress (1): 163/230 kBProgress (1): 167/230 kBProgress (1): 171/230 kBProgress (1): 176/230 kBProgress (1): 180/230 kBProgress (1): 184/230 kBProgress (1): 188/230 kBProgress (1): 192/230 kBProgress (1): 196/230 kBProgress (1): 200/230 kBProgress (1): 204/230 kBProgress (1): 208/230 kBProgress (1): 212/230 kBProgress (1): 217/230 kBProgress (1): 221/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB    Progress (2): 230 kB | 2.7/12 kBProgress (2): 230 kB | 5.5/12 kBProgress (2): 230 kB | 8.2/12 kBProgress (2): 230 kB | 11/12 kB Progress (2): 230 kB | 12 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 817 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 38 kB/s)
+[INFO] Installing C:\Users\maron\.jenkins\workspace\hw5\target\automation_basic_project-basic.jar to C:\Users\maron\.m2\repository\com\ilana\ilana2\automation_basic_project\basic\automation_basic_project-basic.jar
+[INFO] Installing C:\Users\maron\.jenkins\workspace\hw5\pom.xml to C:\Users\maron\.m2\repository\com\ilana\ilana2\automation_basic_project\basic\automation_basic_project-basic.pom
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ automation_basic_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ automation_basic_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ automation_basic_project ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.680 s
+[INFO] Finished at: 2022-11-30T22:15:41+02:00
+[INFO] ------------------------------------------------------------------------
+No emails were triggered.
+Finished: SUCCESS

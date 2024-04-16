@@ -1,0 +1,237 @@
+Started by user [8mha:////4Iz1tzrBAHhoVFSbaH//bTFsBKqR6acH/3J+gllosBbyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL94sTczPjcRAAth5ANwgAAAA==[0msami maron
+Running as SYSTEM
+Building in workspace C:\Users\maron\.jenkins\workspace\hw5
+FSSCM.checkout C:\Users\maron\Desktop\projects\automation_project to C:\Users\maron\.jenkins\workspace\hw5
+New file: target\classes\.gitignore
+New file: target\classes\META-INF\MANIFEST.MF
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.properties
+New file: target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.xml
+
+FSSCM.check completed in 202 milliseconds
+No emails were triggered.
+[hw5] $ cmd.exe /C "C:\Users\maron\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd -f pom.xml clean install test -Dtestng.dtd.http=true -DsuiteXmlFile=src/test/resources/testng.xml '"-Dworkspace=C:\Selenium Workspace"' && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< com.ilana.ilana2:automation_basic_project >--------------
+[INFO] Building automation_basic_project basic
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4GDZASRfAOft3kfEyDP5rlmOOZXyDnic3Zne1m/B0wrrAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ automation_basic_project ---
+[INFO] Deleting C:\Users\maron\.jenkins\workspace\hw5\target
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to C:\Users\maron\.jenkins\workspace\hw5\target\classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ automation_basic_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ automation_basic_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\Users\maron\.jenkins\workspace\hw5\target\test-classes
+[INFO] 
+[8mha:////4AAxs988wjuGbX83MSlMKqeMoDIzdLcZZWKpAH3n5HfCAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ automation_basic_project ---
+[INFO] Surefire report directory: C:\Users\maron\.jenkins\workspace\hw5\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 37916
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669840254.105][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+ðåá× 30, 2022 10:30:55 àçäØö org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+INFO  22:30:55  (TestBase.java:97) - Writing debug log to: C:\Selenium Workspace\Logs\basic\OldCodeTest373.log
+INFO  22:30:55  (TestBase.java:217) - Starting to record the test
+INFO  22:30:55  (FileUtilis.java:48) - Created dir: C:\Selenium Workspace\Recordings\basic\OldCodeTest
+INFO  22:30:55  (TestBase.java:223) - Saving recording to: 'C:\Selenium Workspace\Recordings\basic\OldCodeTest'.
+INFO  22:30:55  (TestBase.java:158) - *************************************************************************
+INFO  22:30:55  (TestBase.java:159) - The 'OldCodeTest' test has started.
+INFO  22:30:55  (TestBase.java:160) - Start time: 30/11/2022 22:30:55
+INFO  22:30:55  (TestBase.java:161) - *************************************************************************
+INFO  22:30:57  (OldCodeTest.java:22) - Click Register link
+INFO  22:30:58  (OldCodeTest.java:25) - Select male
+INFO  22:30:58  (OldCodeTest.java:28) - Enter first name Sami
+INFO  22:30:58  (OldCodeTest.java:31) - Enter last name Maron
+INFO  22:30:58  (OldCodeTest.java:34) - type day 15
+INFO  22:30:58  (OldCodeTest.java:38) - type month October
+INFO  22:30:58  (OldCodeTest.java:42) - type year 2000
+INFO  22:30:58  (OldCodeTest.java:46) - Enter mail samima@edu.hac.ac.il
+INFO  22:30:58  (OldCodeTest.java:49) - Enter Password sami1234
+INFO  22:30:59  (OldCodeTest.java:52) - Enter confirm Password sami1234
+INFO  22:30:59  (OldCodeTest.java:55) - Click Register link
+INFO  22:30:59  (OldCodeTest.java:60) - Verify message: Your registration completed
+FATAL 22:30:59  (TestBase.java:126) - no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.122)
+  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MLG7LH8', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\maron\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50922}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a37338c47da755b42b20baefa34c0efe
+*** Element info: {Using=css selector, value=.result}
+INFO  22:31:00  (ApplicationManager1.java:123) - Application screenshot is saved in: C:\Selenium Workspace\Screenshots\basic\Failure screenshot for OldCodeTest3011222230728.png
+INFO  22:31:00  (TestBase.java:241) - Stop the recording of the test
+INFO  22:31:00  (TestBase.java:270) - Recording is saved in: C:\Selenium Workspace\Recordings\basic\OldCodeTest\OldCodeTest3011222231.avi
+INFO  22:31:00  (TestBase.java:181) - *************************************************************************
+INFO  22:31:00  (TestBase.java:182) - The 'OldCodeTest' test has ended with error.
+INFO  22:31:00  (TestBase.java:183) - Start time: 30/11/2022 22:30:55
+INFO  22:31:00  (TestBase.java:184) - End time:       30/11/2022 22:31:00.
+INFO  22:31:00  (TestBase.java:185) - -------------------------------------------------------------------------
+INFO  22:31:00  (TestBase.java:186) - Total run time: 0 days, 0 hours, 0 minutes, 4.508 seconds.
+INFO  22:31:00  (TestBase.java:187) - *************************************************************************
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 40076
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1669840260.492][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+ðåá× 30, 2022 10:31:01 àçäØö org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+INFO  22:31:01  (TestBase.java:97) - Writing debug log to: C:\Selenium Workspace\Logs\basic\PageObjectCode581.log
+INFO  22:31:01  (TestBase.java:217) - Starting to record the test
+INFO  22:31:01  (FileUtilis.java:48) - Created dir: C:\Selenium Workspace\Recordings\basic\PageObjectCode
+INFO  22:31:01  (TestBase.java:223) - Saving recording to: 'C:\Selenium Workspace\Recordings\basic\PageObjectCode'.
+INFO  22:31:01  (TestBase.java:158) - *************************************************************************
+INFO  22:31:01  (TestBase.java:159) - The 'PageObjectCode' test has started.
+INFO  22:31:01  (TestBase.java:160) - Start time: 30/11/2022 22:31:01
+INFO  22:31:01  (TestBase.java:161) - *************************************************************************
+INFO  22:31:02  (MenusPage.java:22) - Click Register link
+INFO  22:31:04  (RegisterFormPage.java:23) - Select male
+INFO  22:31:04  (RegisterFormPage.java:29) - Enter first nameSami
+INFO  22:31:04  (RegisterFormPage.java:35) - Enter lastMaron
+INFO  22:31:04  (RegisterFormPage.java:41) - type day15
+INFO  22:31:04  (RegisterFormPage.java:48) - type monthOctober
+INFO  22:31:04  (RegisterFormPage.java:55) - type year2000
+INFO  22:31:04  (RegisterFormPage.java:62) - Enter mailsami1@gmail.com
+INFO  22:31:05  (RegisterFormPage.java:68) - Enter Passwordsami1234
+INFO  22:31:05  (RegisterFormPage.java:74) - Enter confirm Passwordsami1234
+INFO  22:31:05  (RegisterFormPage.java:80) - Click Register link
+FATAL 22:31:05  (TestBase.java:126) - no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.122)
+  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MLG7LH8', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\maron\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50950}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7142a8c375bfe0b5806ee1b4c4d91f9c
+*** Element info: {Using=css selector, value=.result}
+INFO  22:31:05  (ApplicationManager1.java:123) - Application screenshot is saved in: C:\Selenium Workspace\Screenshots\basic\Failure screenshot for PageObjectCode3011222231727.png
+INFO  22:31:05  (TestBase.java:241) - Stop the recording of the test
+INFO  22:31:06  (TestBase.java:270) - Recording is saved in: C:\Selenium Workspace\Recordings\basic\PageObjectCode\PageObjectCode3011222231.avi
+INFO  22:31:06  (TestBase.java:181) - *************************************************************************
+INFO  22:31:06  (TestBase.java:182) - The 'PageObjectCode' test has ended with error.
+INFO  22:31:06  (TestBase.java:183) - Start time: 30/11/2022 22:31:01
+INFO  22:31:06  (TestBase.java:184) - End time:       30/11/2022 22:31:06.
+INFO  22:31:06  (TestBase.java:185) - -------------------------------------------------------------------------
+INFO  22:31:06  (TestBase.java:186) - Total run time: 0 days, 0 hours, 0 minutes, 4.489 seconds.
+INFO  22:31:06  (TestBase.java:187) - *************************************************************************
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.722 sec <<< FAILURE! - in TestSuite
+test(tests.basic.OldCodeTest)  Time elapsed: 4.518 sec  <<< FAILURE!
+java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.122)
+  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MLG7LH8', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\maron\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50922}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a37338c47da755b42b20baefa34c0efe
+*** Element info: {Using=css selector, value=.result}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at tests.basic.OldCodeTest.test(OldCodeTest.java:62)
+
+test(tests.basic.PageObjectCode)  Time elapsed: 4.49 sec  <<< FAILURE!
+java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.122)
+  (Driver info: chromedriver=107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}),platform=Windows NT 10.0.22000 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-MLG7LH8', ip: '192.168.56.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\maron\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50950}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 107.0.5304.122, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7142a8c375bfe0b5806ee1b4c4d91f9c
+*** Element info: {Using=css selector, value=.result}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pages.util_pages.RegisterSuccessPage.ensurePageLoaded(RegisterSuccessPage.java:21)
+	at pages.util_pages.RegisterFormPage.clickRegisterButton(RegisterFormPage.java:82)
+	at tests.basic.PageObjectCode.test(PageObjectCode.java:25)
+
+
+Results :
+
+Failed tests: 
+  OldCodeTest.test:84->TestBase.onTestFailure:140 » Runtime org.openqa.selenium....
+  PageObjectCode.test:32->TestBase.onTestFailure:140 » Runtime org.openqa.seleni...
+
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.000 s
+[INFO] Finished at: 2022-11-30T22:31:06+02:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.16:test (default-test) on project automation_basic_project: There are test failures.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to C:\Users\maron\.jenkins\workspace\hw5\target\surefire-reports for the individual test results.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4FuUxxtwya3kQdc6Ok81H4ls17YYtq1mVk2JoSb3NjuOAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+Failed to send e-mail to unknown because no e-mail address is known, and no default e-mail domain is configured
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

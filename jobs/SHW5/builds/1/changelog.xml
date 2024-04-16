@@ -1,0 +1,644 @@
+<log plugin="filesystem_scm@2.1">
+  <run class="hudson.model.FreeStyleBuild">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause>
+              <userId>sami_ma</userId>
+            </hudson.model.Cause_-UserIdCause>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>1</queueId>
+    <timestamp>1669838654543</timestamp>
+    <startTime>1669838654562</startTime>
+    <duration>0</duration>
+    <charset>windows-1255</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>C:\Users\maron\.jenkins\workspace\SHW5</workspace>
+    <hudsonVersion>2.361.4</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <browser class="hudson.plugins.filesystem_scm.FilesystemRepositoryBrowser"/>
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>.classpath</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>.project</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>.settings\org.eclipse.core.resources.prefs</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>.settings\org.eclipse.jdt.core.prefs</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>.settings\org.eclipse.m2e.core.prefs</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\FF\prefs.js</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Linux\chromedriver</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Linux\geckodriver</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Windows\chromedriver.exe</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Windows\geckodriver.exe</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Windows\IEDriverServer.exe</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Windows\MicrosoftWebDriver.exe</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>Profile\Windows\operadriver.exe</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\applogic\API_Helper1.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\applogic\ApplicationManager1.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\applogic\DriverBasedHelper.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\applogic\LoginHelper1.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\models\User.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\super_pages\AnyPage.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\super_pages\MenusPage.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\super_pages\Page.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\util_pages\HomePage.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\util_pages\RegisterFormPage.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\util_pages\RegisterSuccessPage.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\_pages_mngt\MainPageManager.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\_pages_mngt\page_factory\DisplayedElementLocator.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\pages\_pages_mngt\page_factory\DisplayedElementLocatorFactory.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\Browser.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\FileUtilis.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\GenUtils.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\ParamsUtils.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\PropertiesReader.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\util\SelUtils.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\webdriver\AuthenticatedHtmlUnitDriver.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\java\webdriver\WebDriverFactory.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\resources\application.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\resources\grid2\README.txt</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\main\resources\log4j.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\basic\API_TestExample.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\basic\AppiumTestExample.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\basic\CheckPDF_TestExample.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\basic\OldCodeTest.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\basic\PageObjectCode.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\java\tests\supers\TestBase.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src\test\resources\testNG.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\.gitignore</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\application.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\applogic\API_Helper1.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\applogic\ApplicationManager1.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\applogic\DriverBasedHelper.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\applogic\LoginHelper1.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\grid2\README.txt</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\log4j.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\META-INF\maven\com.ilana.ilana2\automation_basic_project\pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\models\User.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\super_pages\AnyPage.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\super_pages\MenusPage.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\super_pages\Page.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\util_pages\HomePage.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\util_pages\RegisterFormPage.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\util_pages\RegisterSuccessPage.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\_pages_mngt\MainPageManager.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\_pages_mngt\page_factory\DisplayedElementLocator.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\pages\_pages_mngt\page_factory\DisplayedElementLocatorFactory.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\Browser.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\FileUtilis.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\GenUtils.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\ParamsUtils.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\PropertiesReader.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\SelUtils$1.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\SelUtils$2.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\SelUtils$LocatorType.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\util\SelUtils.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\webdriver\AuthenticatedHtmlUnitDriver.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\classes\webdriver\WebDriverFactory.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\testNG.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\basic\API_TestExample.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\basic\AppiumTestExample.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\basic\CheckPDF_TestExample.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\basic\OldCodeTest.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\basic\PageObjectCode.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target\test-classes\tests\supers\TestBase.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\bullet_point.png</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\collapseall.gif</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\Default suite\Default test.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\Default suite\Default test.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\Default suite\testng-failed.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\emailable-report.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\failed.png</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\index.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\jquery-1.7.1.min.js</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\jquery-3.4.1.min.js</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\junitreports\TEST-tests.basic.AppiumTestExample.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\junitreports\TEST-tests.basic.HealthCheck.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\junitreports\TEST-tests.basic.OldCodeTest.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\junitreports\TEST-tests.basic.PageObjectCode.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\junitreports\TEST-tests.basic.ShoppingEndToEnd.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\navigator-bullet.png</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\classes.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\Default test.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\groups.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\index.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\main.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\methods-alphabetical.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\methods-not-run.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\methods.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\reporter-output.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\testng.xml.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\Default suite\toc.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\old\index.html</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\passed.png</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\skipped.png</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-failed.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-reports.css</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-reports.js</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-reports1.css</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-reports2.js</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng-results.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>test-output\testng.css</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>
